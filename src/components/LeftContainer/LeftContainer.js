@@ -105,7 +105,7 @@ export default function LeftContainer({ posts }) {
                             <input onChange={handleChange} accept="image/*" className={classes.input} id="icon-button-file" type="file" />
                             <label htmlFor="icon-button-file">
                                 <IconButton aria-label="upload picture" component="span">
-                                    <i style={{ color: 'black' }} class="fas fa-camera"></i>
+                                    <i style={{ color: 'black' }} className="fas fa-camera"></i>
                                 </IconButton>
                             </label>
                         </div>

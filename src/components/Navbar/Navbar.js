@@ -42,7 +42,7 @@ export default function Navbar() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [user, setUser] = useState(null);
-  const [profileImage, setProfileImage] = useState(null)
+  const [profileImage, setProfileImage] = useState(null);
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
