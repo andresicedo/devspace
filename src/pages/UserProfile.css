@@ -1,0 +1,93 @@
+.userProfile__col1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.col1__leftSide {
+    margin-right: 2%;
+}
+
+
+.col1__rightSide {
+    margin-top: 2%;
+}
+
+.rightSide__1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rightSide__1__input {
+    margin-top: 10%;
+}
+
+.rightSide__1__name {
+    font-size: 45px;
+    margin-top: 15%;
+}
+
+.postCard {
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.postCap {
+    font-size: 15px;
+    color: black;
+}
+
+.postImage {
+    opacity: 1;
+    display: block;
+    transition: .5a ease;
+    backface-visibility: hidden;
+}
+
+.postCard:hover .postImage {
+    opacity: 0.2;
+}
+
+.postCard:hover .postContainer {
+    opacity: 1;
+}
+
+
+.postCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.postContainer {
+    transition: .5a ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.userProfile__col2 {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.bioForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.bioBtn {
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+}
+

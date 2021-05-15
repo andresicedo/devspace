@@ -1,0 +1,28 @@
+.footer_modalButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_upload {
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+}
+
+.uploadBtn {
+    border-radius: 50% !important;
+    background-color: rgb(4, 230, 4) !important;
+    color: white;
+}
+
+.uploadBtn__container {
+    background-color: #fafafa;
+    margin-left: 20%;
+    border-left: gray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.uploadBtn__container p {
+    font-size: 10px;
+}
